@@ -1,0 +1,14 @@
+# Environment-specific files
+.env*
+.env
+venv/
+env/
+
+# Distribution / packaging files
+*.egg
+*.egg-info
+dist/
+build/
+
+# Jupyter Notebook files
+*.ipynb_checkpoints/
