@@ -2,7 +2,7 @@ import numpy as np
 
 
 class LogisticRegression:
-    def __init__(self, lr=0.001, max_iter=100, print_cost=False):
+    def __init__(self, lr=0.0001, max_iter=100, print_cost=False):
         self.lr = lr
         self.max_iter = max_iter
         self.b = None
